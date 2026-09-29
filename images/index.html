@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BanOut - Donas y waffles saludables. Sabor natural que te hace destacar.">
+  <title>BanOut | Donas y Waffles Saludables</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#inicio" class="logo">
+      <span class="logo-b">Ban</span><span class="logo-o">Out</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#productos">Productos</a>
+      <a href="#beneficios">¿Por qué BanOut?</a>
+      <a href="#pedido">Pedidos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INICIO -->
+    <section class="hero" id="inicio">
+      <!-- BANNER SUPERIOR: collage horizontal de productos -->
+      <div class="product-banner-top" aria-label="Galería de productos BanOut">
+        <div class="product-track-top">
+          <div class="banner-product-top"><img src=".images/integrantes-banout.jpg" alt="Banner 1"></div>
+          <div class="banner-product-top"><img src=".images/banner-2.jpg" alt="Banner 2"></div>
+          <div class="banner-product-top"><img src=".images/banner-3.jpg" alt="Banner 3"></div>
+          <div class="banner-product-top"><img src=".images/banner.jpg" alt="Banner 4"></div>
+          <div class="banner-product-top"><img src=".images/producto.jpg" alt="Banner 5"></div>
+
+          <!-- Copia para mantener el desplazamiento continuo -->
+          <div class="banner-product-top" aria-hidden="true"><img src=".images/integrantes-banout.jpg" alt="Banner 1"></div>
+          <div class="banner-product-top" aria-hidden="true"><img src=".images/banner-2.jpg" alt="Banner 2"></div>
+          <div class="banner-product-top" aria-hidden="true"><img src=".images/banner-3.jpg" alt="Banner 3"></div>
+          <div class="banner-product-top" aria-hidden="true"><img src=".images/banner.jpg"></div>
+          <div class="banner-product-top" aria-hidden="true"><img src=".images/producto.jpg" alt="Banner 5"></div>
+        </div>
+        <div class="banner-top-text">🍩 Descubre nuestros productos</div>
+      </div>
+
+      <div class="hero-content">
+      <div class="hero-text">
+        <span class="tag">🍌 Sabor natural</span>
+        <h1>Donas y waffles<br><span>que te hacen destacar</span></h1>
+        <p>
+          Deliciosos, nutritivos y accesibles. En BanOut disfrutamos de postres
+          preparados con ingredientes naturales como avena, plátano, miel y frutas.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-green" href="#productos">Ver productos</a>
+          <a class="btn btn-yellow" href="#pedido">Pedir ahora</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <!-- FOTO PRINCIPAL: se mantiene igual que antes -->
+        <img src=".images/producto-3.jpg" alt="Productos BanOut">
+        <div class="floating-card">
+          <span>💚</span>
+          <div>
+            <strong>Natural y delicioso</strong>
+            <small>Hecho para disfrutar</small>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section about" id="nosotros">
+      <div class="section-title">
+        <span>CONÓCENOS</span>
+        <h2>¿Qué es BanOut?</h2>
+        <p>Un emprendimiento pensado para disfrutar algo rico y cuidar nuestra alimentación.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image">
+          <!-- FOTO: coloca aquí una foto del equipo o del proceso -->
+          <img src=".images/logo-banout.png" alt="Equipo BanOut">
+        </div>
+
+        <div class="about-content">
+          <h3>Del sabor natural a tu momento favorito 💗</h3>
+          <p>
+            BanOut es un emprendimiento dedicado a elaborar y vender donas y waffles
+            saludables. Buscamos ofrecer productos deliciosos, nutritivos y accesibles
+            para estudiantes, familias y personas que buscan una opción diferente.
+          </p>
+
+          <div class="mission-box">
+            <h4>🎯 Nuestra misión</h4>
+            <p>
+              Ofrecer donas y waffles saludables elaborados con ingredientes naturales,
+              promoviendo una alimentación saludable sin perder el delicioso sabor.
+            </p>
+          </div>
+
+          <div class="vision-box">
+            <h4>🌟 Nuestra visión</h4>
+            <p>
+              Ser un emprendimiento reconocido por ofrecer productos innovadores,
+              nutritivos y de calidad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="section products-section" id="productos">
+      <div class="section-title">
+        <span>NUESTRO MENÚ</span>
+        <h2>Elige tu favorito 😋</h2>
+        <p>Productos de BanOut preparados para disfrutar en cualquier momento.</p>
+      </div>
+
+      <div class="products-grid">
+        <article class="product-card">
+          <!-- FOTO: dona clásica -->
+          <div class="product-image">
+            <img src=".images/dona-clasica.jpg" alt="Dona clásica">
+          </div>
+          <div class="product-info">
+            <span class="product-type">DONA</span>
+            <h3>Dona clásica</h3>
+            <p>Una opción deliciosa y natural para disfrutar.</p>
+            <div class="product-bottom">
+              <strong>S/ 2.50</strong>
+              <button class="order-btn" data-product="Dona clásica" data-price="2.50">Pedir</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <!-- FOTO: dona especial -->
+          <div class="product-image">
+            <img src="images/Dona-especial.jpg" alt="Dona especial">
+          </div>
+          <div class="product-info">
+            <span class="product-type">DONA</span>
+            <h3>Dona especial</h3>
+            <p>Una versión especial para darte un gusto saludable.</p>
+            <div class="product-bottom">
+              <strong>S/ 3.00</strong>
+              <button class="order-btn" data-product="Dona especial" data-price="3.00">Pedir</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <!-- FOTO: waffle clásico -->
+          <div class="product-image">
+            <img src="images/Waffle-Clasico.jpg" alt="Waffle clásico">
+          </div>
+          <div class="product-info">
+            <span class="product-type">WAFFLE</span>
+            <h3>Waffle clásico</h3>
+            <p>Suave, delicioso y preparado con ingredientes naturales.</p>
+            <div class="product-bottom">
+              <strong>S/ 4.00</strong>
+              <button class="order-btn" data-product="Waffle clásico" data-price="4.00">Pedir</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <!-- FOTO: waffle con frutas -->
+          <div class="product-image">
+            <img src="images/Waffle-con-Frutas.jpg" alt="Waffle con frutas">
+          </div>
+          <div class="product-info">
+            <span class="product-type">WAFFLE</span>
+            <h3>Waffle con frutas</h3>
+            <p>Waffle acompañado de frutas para una opción fresca.</p>
+            <div class="product-bottom">
+              <strong>S/ 5.00</strong>
+              <button class="order-btn" data-product="Waffle con frutas" data-price="5.00">Pedir</button>
+            </div>
+          </div>
+        </article>
+
+        
+        <article class="product-card featured">
+          <!-- FOTO: combo power -->
+          <div class="product-image">
+            <span class="featured-label">⭐ FAVORITO</span>
+            <img src="images/Combo-Power.jpg" alt="Combo Power">
+          </div>
+          <div class="product-info">
+            <span class="product-type">COMBO</span>
+            <h3>Combo Power</h3>
+            <p>Una combinación especial para disfrutar y recargar energías.</p>
+            <div class="product-bottom">
+              <strong>S/ 6.00</strong>
+              <button class="order-btn" data-product="Combo Power" data-price="6.00">Pedir</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="section benefits" id="beneficios">
+      <div class="section-title">
+        <span>LO QUE NOS REPRESENTA</span>
+        <h2>¿Por qué elegir BanOut?</h2>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit">
+          <div class="benefit-icon">🍌</div>
+          <h3>Ingredientes naturales</h3>
+          <p>Utilizamos ingredientes como plátano, avena, miel y frutas.</p>
+        </div>
+
+        <div class="benefit">
+          <div class="benefit-icon">💚</div>
+          <h3>Una opción saludable</h3>
+          <p>Buscamos promover mejores hábitos alimenticios sin perder el sabor.</p>
+        </div>
+
+        <div class="benefit">
+          <div class="benefit-icon">😋</div>
+          <h3>Deliciosos</h3>
+          <p>El sabor y la textura son parte importante de la experiencia BanOut.</p>
+        </div>
+
+        <div class="benefit">
+          <div class="benefit-icon">💰</div>
+          <h3>Precios accesibles</h3>
+          <p>Ofrecemos alternativas pensadas para estudiantes y familias.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PEDIDO -->
+    <section class="section order-section" id="pedido">
+      <div class="order-box">
+        <div class="order-text">
+          <span>📲 HAZ TU PEDIDO</span>
+          <h2>¿Ya elegiste tu favorito?</h2>
+          <p>
+            Selecciona un producto, indica la cantidad y te llevaremos directamente
+            a WhatsApp para enviar tu pedido.
+          </p>
+          <div class="hours">
+            🕐 <strong>Horario de atención:</strong> 8:00 a. m. – 6:30 p. m.
+          </div>
+        </div>
+
+        <form id="orderForm" class="order-form">
+          <label for="product">Producto</label>
+          <select id="product" required>
+            <option value="" disabled selected>Selecciona un producto</option>
+            <option value="Dona clásica" data-price="2.50">Dona clásica — S/ 2.50</option>
+            <option value="Dona especial" data-price="3.00">Dona especial — S/ 3.00</option>
+            <option value="Waffle clásico" data-price="4.00">Waffle clásico — S/ 4.00</option>
+            <option value="Waffle con frutas" data-price="5.00">Waffle con frutas — S/ 5.00</option>
+            <option value="Combo Power" data-price="6.00">Combo Power — S/ 6.00</option>
+          </select>
+
+          <label for="quantity">Cantidad</label>
+          <input type="number" id="quantity" min="1" value="1" required>
+
+          <div class="total">
+            <span>Total:</span>
+            <strong id="total">S/ 0.00</strong>
+          </div>
+
+          <button class="btn btn-whatsapp" type="submit">💬 Pedir por WhatsApp</button>
+          <small>Se abrirá WhatsApp con tu pedido preparado.</small>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact" id="contacto">
+      <div class="section-title">
+        <span>ENCUÉNTRANOS</span>
+        <h2>Conecta con BanOut 💕</h2>
+        <p>Haz tu pedido o síguenos para conocer nuestras novedades.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a class="contact-card whatsapp" href="https://wa.me/51962261397" target="_blank" rel="noopener">
+          <span>💬</span>
+          <div>
+            <h3>WhatsApp</h3>
+            <p>962 261 397</p>
+          </div>
+        </a>
+
+        <a class="contact-card instagram" href="https://www.instagram.com/banout_oficial/" target="_blank" rel="noopener">
+          <span>📸</span>
+          <div>
+            <h3>Instagram</h3>
+            <p>@banout_oficial</p>
+          </div>
+        </a>
+
+        <div class="contact-card yape">
+          <span>💳</span>
+          <div>
+            <h3>Yape</h3>
+            <p>962 261 397</p>
+          </div>
+        </div>
+
+        <div class="contact-card hours-card">
+          <span>🕐</span>
+          <div>
+            <h3>Horario</h3>
+            <p>8:00 a. m. – 6:30 p. m.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo"><span>Ban</span><b>Out</b></div>
+    <p>Sabor natural que te hace destacar.</p>
+    <p class="copyright">© 2026 BanOut. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
